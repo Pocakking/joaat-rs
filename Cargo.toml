@@ -1,0 +1,17 @@
+[package]
+name = "joaat"
+version = "0.1.0"
+authors = ["Pocakking"]
+description = "Jenkins one-at-a-time hash for Rust"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Pocakking/joaat-rs/"
+edition = "2018"
+
+[lib]
+name = "joaat"
+path = "lib.rs"
+
+[features]
+default = ["std"]
+std = []
